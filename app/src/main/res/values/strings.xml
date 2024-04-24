@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">imadcalculator2</string>
+    <string name="sub">SUB</string>
+    <string name="mul">MUL</string>
+    <string name="div">DIV</string>
+    <string name="sqr">SQR</string>
+    <string name="pow">POW</string>
+    <string name="add">ADD</string>
+    <string name="NextScreen">NextScreen</string>
+    <string name="addList">ADD TO LIST</string>
+    <string name="total">TOTAL</string>
+    <string name="high">HIGH</string>
+    <string name="low">LOW</string>
+    <string name="average">AVERAGE</string>
+    <string name="clear">CLEAR</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/btnSUB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sub" />
+
+    <Button
+        android:id="@+id/btnMUL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mul" />
+
+    <Button
+        android:id="@+id/btnDIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/div" />
+
+    <Button
+        android:id="@+id/btnSQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sqr" />
+
+    <Button
+        android:id="@+id/btnPOW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pow" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="177dp" />
+
+    <Button
+        android:id="@+id/btnNextScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NextScreen" />
+</LinearLayout>
