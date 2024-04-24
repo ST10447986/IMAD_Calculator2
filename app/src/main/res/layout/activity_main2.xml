@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
+        android:textSize="20sp"
         tools:ignore="LabelFor" />
 
     <Button
@@ -32,13 +33,16 @@
         android:id="@+id/btnTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/total" />
+        android:backgroundTint="#F44336"
+        android:text="@string/total"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnHigh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/high" />
+        android:text="@string/high"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnLow"
@@ -50,6 +54,7 @@
         android:id="@+id/btnAverage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
         android:text="@string/average" />
 
     <Button
